@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 2em;
+}
+
+.nome_blog {
+    font-size: 1.2em;
+}
+
+.nome_blog span {
+    font-weight: 900;
+    /*transforma todo o conteudo em letra maiuscula*/
+    text-transform: uppercase;
+}
+
+.lista_de_links {
+    display: flex;
+    list-style: none;
+}
+
+.lista_de_links li {
+    margin-right: 1em;
+} 
+
+.lista_de_links li a {
+    padding: .4em 0.6em;
+}
+
+.active {
+    background-color: rgb(193, 186, 186) ;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+
